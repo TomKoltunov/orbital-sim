@@ -1,0 +1,18 @@
+{
+    "t_start_utc": "2025-07-25T00:00:00Z",
+    "duration_seconds": 14400,
+    "time_step_seconds": 60,
+    "min_elevation_deg": 5,
+    "satellites": [
+        { "name": "LEO-Polar", "a_km": 6871, "e": 0.001, "i_deg": 98.0, "raan_deg": 0.0, "argp_deg": 0.0, "nu0_deg": 0.0 },
+        { "name": "LEO-Equat", "a_km": 6871, "e": 0.001, "i_deg": 0.0,  "raan_deg": 0.0, "argp_deg": 0.0, "nu0_deg": 0.0 },
+        { "name": "MEO",       "a_km": 20200, "e": 0.01,  "i_deg": 55.0, "raan_deg": 90.0, "argp_deg": 0.0, "nu0_deg": 0.0 },
+        { "name": "GEO",       "a_km": 42164, "e": 0.0,   "i_deg": 0.1,  "raan_deg": 180.0, "argp_deg": 0.0, "nu0_deg": 0.0 }
+    ],
+    "ground_stations": [
+        { "name": "TelAviv", "lat_deg": 32.0853, "lon_deg": 34.7818, "height_m": 50 },
+        { "name": "Sydney",  "lat_deg": -33.8688, "lon_deg": 151.2093, "height_m": 50 },
+        { "name": "NewYork", "lat_deg": 40.7128, "lon_deg": -74.0060, "height_m": 20 },
+        { "name": "Reykjavik", "lat_deg": 64.1355, "lon_deg": -21.8954, "height_m": 100 }
+    ]
+}
